@@ -1,0 +1,36 @@
+<div>nombre:{{nombre}}</div>
+<br>
+<br><h1 class="title text-center">Editar Cita</h1><br>
+
+
+<form class="col-lg-6 offset-lg-2">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Cedula</label>
+      <input type="text"[(ngModel)]="citaa.cedula" name="cedula" class="form-control" id="" placeholder="Cedula" >
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Nombre</label>
+      <input type="text"[(ngModel)]="citaa.nombre " name="nombre" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">Fecha</label>
+      <input type="text"[(ngModel)]="citaa.fecha " name="fecha" class="form-control" id="exampleInputPassword1" placeholder="Fecha">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Hora</label>
+      <input type="text"[(ngModel)]="citaa.hora" name="hora" class="form-control" id="exampleInputPassword1" placeholder="Hora">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Observaciones</label>
+      <input type="text"[(ngModel)]="citaa.observaciones" name="observaciones" class="form-control" id="exampleInputPassword1" placeholder="Observaciones">
+    </div>
+  
+    <br>
+  
+    <button class="btn btn-primary" >Submit</button>
+    
+  </form>

@@ -1,0 +1,35 @@
+<br>
+<br><h1 class="title text-center">Agendar Cita</h1><br>
+
+
+<form class="col-lg-6 offset-lg-2">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Cedula</label>
+      <input type="text"[(ngModel)]="cita.cedula" name="cedula" class="form-control" id="" placeholder="Cedula" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Nombre</label>
+      <input type="text"[(ngModel)]="cita.nombre " name="nombre" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">Fecha</label>
+      <input type="text"[(ngModel)]="cita.fecha " name="fecha" class="form-control" id="exampleInputPassword1" placeholder="Fecha">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Hora</label>
+      <input type="text"[(ngModel)]="cita.hora" name="hora" class="form-control" id="exampleInputPassword1" placeholder="Hora">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Observaciones</label>
+      <input type="text"[(ngModel)]="cita.observaciones" name="observaciones" class="form-control" id="exampleInputPassword1" placeholder="Observaciones">
+    </div>
+  
+    <br>
+  
+    <button class="btn btn-primary" (click)="agregarCita()">Submit</button>
+    
+  </form>

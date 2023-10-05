@@ -1,0 +1,7 @@
+.sidenav a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+}

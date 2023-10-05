@@ -1,0 +1,22 @@
+<br><h1 class="title">Citas Asignadas</h1><br>
+
+<div class="row">
+   
+    <div *ngFor="let cita of citas" class="col-md-4">
+        <a>
+        <div class="card">
+            
+            <div class="card-body">
+              
+                <h5 class="card-title">{{cita.nombre}}</h5>
+                <p class="card-text"><strong>Cedula: {{cita.cedula}}</strong></p>
+                <p class="card-text"><strong>Fecha: {{cita.fecha}}</strong></p>
+                <p class="card-text"><strong>Hora: {{cita.hora}}</strong></p>
+                <p class="card-text"><strong>Observaciones: {{cita.observaciones}}</strong></p>
+             
+                
+                </div>
+        </div>
+        </a>  
+    </div>
+</div>  
